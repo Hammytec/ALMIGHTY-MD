@@ -1,0 +1,6 @@
+ #heroku.yml file data to run Container
+ build:
+   docker:
+       web: Almighty/Dockerfile
+ run:
+   web: npm start
