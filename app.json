@@ -1,5 +1,5 @@
 {
-    "name": "Almighty-md@1.0.0",
+    "name": "Almighty-md",
     "description": "I am Almighty-Md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
     "logo": "https://telegra.ph/file/d270d4fb3def7fb3b467f.jpg",
     "keywords": ["almighty-md", "hammy", "almighty-Md"],
@@ -106,7 +106,8 @@
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": 
+        "value": " "
+        "required": true
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
